@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+
+        var Dog = {
+            name: "可可",
+            type: "阿拉斯加犬",
+            age: 5,
+            color: "棕红色",
+            bark :function (){
+                console.log("汪汪汪");
+            },
+            showFile: function (){
+                console.log("我在演电影");
+            }
+        }
+        Dog.bark();
+        Dog.showFile();
+
+
+        var Dog1 = new Object();
+        Dog1.name = "可可二代";
+        Dog1.age = 6;
+        Dog1.sex = '男';
+        Dog1.bark1 = function (){
+            console.log("汪汪汪二代");
+        }
+        Dog1.bark1();
+    </script>
+</head>
+<body>
+
+</body>
+</html>
